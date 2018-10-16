@@ -1,0 +1,23 @@
+# Classic
+Cryptography - 40 points
+
+## Challenge 
+
+My primes might be close in size but they're big enough that it shouldn't matter right? 
+
+[rsa.txt](6bd24f59c2861c8f62358d17d677812bc079876f6951c22d13f396bbf1059cca_rsa.txt)
+
+
+## Solution
+
+Since the primes are close, the intended solution is to do a square root and find the closest prime below and above the square root value.
+
+However, it is already factorised on factordb.com
+
+	p = 11326943005628119672694629821649856331564947811949928186125208046290130000912120768861173564277210907403841603312764378561200102283658817695884193223692869
+
+	q = 11326943005628119672694629821649856331564947811949928186125208046290130000912216246378177299696220728414241927034282796937320547048361486068608744598351187
+
+## Flag
+
+	tjctf{1_l1ke_squares}
